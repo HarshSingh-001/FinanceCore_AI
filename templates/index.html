@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FinanceCore AI</title>
+  <link rel="stylesheet" href="/static/chat.css" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", Arial, sans-serif;
+      background: #fffaf4;
+      color: #2b2b2b;
+    }
+
+    /* ===== HEADER ===== */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 60px;
+      background: #fffaf4;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 700;
+      color: #f97316;
+    }
+
+    .nav a {
+      margin-left: 24px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    .nav .btn {
+      background: #f97316;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 30px;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 80px 60px;
+      gap: 40px;
+    }
+
+    .hero-text {
+      max-width: 520px;
+    }
+
+    .hero-text h1 {
+      font-size: 48px;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    .hero-text h1 span {
+      color: #f97316;
+    }
+
+    .hero-text p {
+      font-size: 16px;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    .hero-text .btn {
+      background: #f97316;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .hero-image img {
+      width: 420px;
+      border-radius: 24px;
+      object-fit: cover;
+    }
+
+    /* ===== INTRO ===== */
+    .intro {
+      text-align: center;
+      padding: 80px 20px;
+      background: #fff3e6;
+    }
+
+    .intro h2 {
+      font-size: 28px;
+      color: #f97316;
+      margin-bottom: 20px;
+    }
+
+    .intro p {
+      max-width: 700px;
+      margin: auto;
+      color: #555;
+      font-size: 15px;
+    }
+
+    /* ===== FEATURES GRID ===== */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 60px;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 20px;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+      font-weight: 500;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      text-align: center;
+      padding: 30px;
+      background: #fff3e6;
+      font-size: 14px;
+      color: #666;
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-image img {
+        width: 100%;
+        max-width: 380px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="header">
+  <div class="logo">FinanceCore-AI</div>
+  <nav class="nav">
+    <a href="/">Home</a>
+    <a href="/chat" class="btn">Talk to AI</a>
+  </nav>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>
+      Find Your <br />
+      <span>Perfect Finance Insight</span><br />
+      Let’s Get Started
+    </h1>
+
+    <p>
+      FinanceCore-AI is a context-aware finance chatbot designed to help you
+      understand complex financial concepts in a simple, practical way.
+    </p>
+
+    <a href="/chat" class="btn">Talk to AI</a>
+  </div>
+
+  <div class="hero-image">
+    <img
+      src="https://www.admin-bg.investkraft.com/public/images/1729837692.business.webp"
+      alt="Finance Illustration"
+    />
+  </div>
+</section>
+
+<!-- ===== INTRO ===== -->
+<section class="intro">
+  <h2>The Smart Way to Learn Finance</h2>
+  <p>
+    Powered by AI and contextual understanding, FinanceCore-AI provides
+    accurate, structured, and easy-to-understand answers for finance learners,
+    students, and professionals.
+  </p>
+</section>
+
+<!-- ===== FEATURES ===== -->
+<section class="features">
+  <div class="feature-card">📊 Financial Concepts Explained</div>
+  <div class="feature-card">🧠 Context-Based Answers</div>
+  <div class="feature-card">⚡ Fast & Reliable AI</div>
+  <div class="feature-card">📚 Learning-Focused Responses</div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  © 2026 FinanceCore-AI. All rights reserved.
+</footer>
+
+</body>
+</html>
