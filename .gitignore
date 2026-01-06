@@ -3,4 +3,4 @@
 /.env
 /template.py
 /Generative_AI_Project___Finance_chatBot.egg-info
-
+/src/__pycache__

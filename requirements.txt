@@ -1,11 +1,29 @@
-sentence-transformers==2.2.2
-langchain
-langchain-community
-flask
-pypdf
-python-dotenv
-pinecone[grpc]
-langchain-pinecone
-langchain-google-genai
-google-generativeai
--e .
+# ---- CORE ----
+langchain==1.2.0
+langchain-core==1.2.5
+langchain-community==0.4.1
+
+# ---- GOOGLE GEMINI ----
+langchain-google-genai==4.1.2
+google-generativeai==0.8.6
+
+# ---- EMBEDDINGS ----
+sentence-transformers==5.2.0
+
+# ---- PDF ----
+pypdf==6.5.0
+pillow==10.4.0
+
+# ---- VECTOR DB ----
+pinecone-client==3.2.2
+langchain-pinecone>=0.1.0
+
+# ---- BACKEND ----
+flask==3.1.2
+python-dotenv==1.2.1
+
+# ---- CRITICAL FIX ----
+protobuf>=4.21.0,<6
+
+# ---- LOCAL PACKAGE ----
+-e . 
