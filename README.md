@@ -1,7 +1,3 @@
-# FinanceCore_AI
-This model help You understand the personal Finance and corporate finance. 
-
-
 # FinanceCore-AI
 
 FinanceCore-AI is a domain-specific AI assistant focused on answering finance-related questions using retrieval-augmented generation (RAG).  
@@ -54,33 +50,10 @@ The primary objective of this project is to:
 4. Google Gemini generates a response based on retrieved data  
 5. Response is returned through the Flask API  
 
----
-
-## Project Structure
-
-FinanceCore-AI/
-│
-├── app.py
-├── finance_bot.py
-├── requirements.txt
-│
-├── templates/
-│ └── chat.html
-│
-├── static/
-│ ├── css/
-│ └── js/
-│
-└── README.md
-
-
-
-
----
 
 ## Installation & Setup
 
-### 1. Clone the Repository
+### Setup 
 ```bash
 git clone https://github.com/your-username/FinanceCore-AI.git
 cd FinanceCore-AI
