@@ -65,5 +65,12 @@ pip install -r requirements.txt
 
 python app.py
 
+```
+
+### youtube video
+https://www.youtube.com/watch?v=TxWXbK1uUuk
+
+
+
 
 
